@@ -1,0 +1,41 @@
+@import '../../App.scss';
+
+
+.headerContainer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  } 
+
+.image {
+  position: absolute;
+  width: 100%;
+  height: 600px;
+} 
+
+.headerText{
+  width: 800px;
+  height: 250px;
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  margin-top: -100px;
+  margin-left: -100px;
+  display: flex;
+}
+
+.headerText :first-child{
+  width: 75%;
+}
+
+h1{
+  color: $background3-color; 
+}
+h4{
+  color: $background4-color;
+}
+
+
+
+
+

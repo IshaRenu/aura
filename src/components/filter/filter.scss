@@ -1,0 +1,24 @@
+@import '../../App.scss';
+
+span {
+    padding: 70px 10px 70px 10px;
+    margin: 10px;
+    background: $background-color;
+    color: $background-color;
+}
+
+.AQI_check {
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+.submit {
+    background: $secondary-color;
+    padding: 5px;
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+}
+
